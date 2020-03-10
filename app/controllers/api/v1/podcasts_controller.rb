@@ -1,4 +1,4 @@
-class PodcastsController < ApplicationController
+class Api::V1::PodcastsController < ApplicationController
   before_action :set_podcast, only: [:show, :update, :destroy]
 
   # GET /podcasts

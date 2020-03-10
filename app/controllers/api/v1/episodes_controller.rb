@@ -1,4 +1,4 @@
-class EpisodesController < ApplicationController
+class Api::V1::EpisodesController < ApplicationController
   before_action :set_episode, only: [:show, :update, :destroy]
 
   # GET /episodes
